@@ -425,4 +425,24 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+   </string-array>
+
+   <!-- Whether notify fingerprint client of successful cancelled authentication 
+   <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
+    
+   <!-- Default value for proximity check on screen wake
+        NOTE ! - Enable for devices that have a fast response
+        proximity sensor (ideally < 300ms) -->
+   <bool name="config_proximityCheckOnWake">true</bool>
+   <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+   
+   <!-- doze always on -->
+   <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+ 
+   <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+   <bool name="config_displayBlanksAfterDoze">true</bool>
+
+   <!-- If true, the display will be shifted around in ambient mode. -->
+   <bool name="config_enableBurnInProtection">true</bool>
+   
 </resources>
