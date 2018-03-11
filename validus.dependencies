@@ -1,6 +1,6 @@
 [
     {
-        "repository": "GZR-Kernels/angler",
+        "repository": "GZR-Kernels/kernel_huawei_angler",
         "target_path": "kernel/huawei/angler",
 	      "remote" : "github",
 	      "branch" : "8.1"
