@@ -6,9 +6,9 @@
 	      "branch" : "8.1"
     },
     {
-        "repository": "ezio84/abc_vendor_huawei",
+        "repository": "BigTopKrazies/propietary_vendor_huawei",
         "target_path": "vendor/huawei",
 	      "remote" : "github",
-	      "branch" : "o2"
+	      "branch" : "8.1"
     }
 ]
