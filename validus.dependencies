@@ -6,7 +6,7 @@
 	      "branch" : "8.1"
     },
     {
-        "repository": "BigTopKrazies/propietary_vendor_huawei",
+        "repository": "BigTopKrazies/proprietary_vendor_huawei",
         "target_path": "vendor/huawei",
 	      "remote" : "github",
 	      "branch" : "8.1"
