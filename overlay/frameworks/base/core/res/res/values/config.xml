@@ -425,8 +425,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-   </string-array>
-
    <!-- Whether notify fingerprint client of successful cancelled authentication 
    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
     
