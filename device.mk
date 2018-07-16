@@ -530,12 +530,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=23
 
-# configure the HWUI memory limits
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
-
-# setup dalvik vm configs.
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
-
 # drmservice prop
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
